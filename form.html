@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SindhBank Complaint Form</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+
+	<script src="./js/jquery.js"></script>
+	
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+    
+
+	<script src="./js/validate.js"></script>
+	
+	
+	
+	
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        
+        #banner {
+            top: 50px;
+            width: 100%;
+            height: 250px;
+            padding-left: 04px;
+        }
+        
+        #c1 {
+            top: 100px;
+        }
+        
+        #Text1 {
+            width: 176px;
+            margin-left: 32px;
+        }
+        
+        #Text2 {
+            width: 176px;
+            margin-left: 32px;
+        }
+        
+        .auto-style4 {
+            width: 681px;
+            text-align: right;
+            height: 38px;
+        }
+        
+        .auto-style5 {
+            height: 38px;
+        }
+        
+        .auto-style6 {
+            width: 681px;
+            text-align: right;
+            height: 33px;
+        }
+        
+        .auto-style7 {
+            height: 33px;
+        }
+        
+        .auto-style8 {
+            width: 681px;
+            text-align: right;
+            height: 31px;
+        }
+        
+        .auto-style9 {
+            height: 31px;
+        }
+        
+        .auto-style10 {
+            width: 681px;
+            text-align: right;
+            height: 35px;
+        }
+        
+        .auto-style11 {
+            height: 35px;
+        }
+        
+        #Text3 {
+            width: 176px;
+            margin-left: 32px;
+        }
+        
+        #Text4 {
+            width: 176px;
+            margin-left: 32px;
+        }
+        
+        #Text5 {
+            width: 176px;
+            margin-left: 32px;
+        }
+        
+        #Text6 {
+            width: 176px;
+            margin-left: 32px;
+        }
+        
+        .auto-style12 {
+            width: 681px;
+            text-align: right;
+            height: 36px;
+        }
+        
+        .auto-style13 {
+            height: 36px;
+        }
+        
+        .auto-style15 {
+            height: 53px;
+        }
+        
+        #Text7 {
+            width: 252px;
+            margin-left: 32px;
+            height: 79px;
+        }
+        
+        #Text8 {
+            width: 237px;
+            margin-left: 32px;
+            height: 105px;
+            margin-right: 24px;
+            margin-top: 13px;
+        }
+        
+        .auto-style18 {
+            width: 100%;
+            height: 97px;
+        }
+        
+        .auto-style19 {
+            text-align: center;
+            font-size: xx-large;
+        }
+        
+        .auto-style20 {
+            width: 100%;
+            height: 74px;
+            margin-bottom: 15px;
+        }
+        
+        #Button1 {
+            text-align: center;
+            width: 93px;
+            height: 34px;
+            margin-left: 443px;
+        }
+        
+        #Submit1 {
+            height: 39px;
+            width: 96px;
+            margin-left: 422px;
+            background-color: #008000;
+        }
+        
+        .auto-style22 {
+            height: 88px;
+        }
+        
+        .auto-style23 {
+            height: 88px;
+        }
+        
+        .auto-style24 {
+            height: 53px;
+        }
+        
+        .auto-style25 {
+            height: 63px;
+        }
+        
+        #Text9 {
+            width: 237px;
+            margin-left: 32px;
+            height: 105px;
+            text-align: justify;
+            margin-right: 24px;
+            margin-top: 13px;
+        }
+        
+        .auto-style26 {
+            width: 100%;
+        }
+        
+        .auto-style27 {
+            height: 85px;
+            text-align: center;
+        }
+        
+        #Text {
+            width: 176px;
+        }
+		
+		.col-md-6 {
+		margin-bottom:5px;
+		margin-top: 10px;
+		}
+    </style>
+
+    <script>
+ 
+        function text1valid(text, error) {
+
+            if (text == "") {
+                show(error);
+            } else {
+                hide(error);
+            }
+
+        }
+
+        function text2valid(text, error) {
+
+            if (text === parseInt(text, 36)) {
+                hide(error);
+            } else {
+                show(error);
+            }
+        }
+
+        function show(error) {
+            error.removeAttribute('hidden');
+        }
+
+        function hide(error) {
+            error.setAttribute('hidden', "true");
+        }
+
+    </script>
+</head>
+
+<body style="background-image:url(https://www.sindhbankltd.com/images/ajrak.jpg);">
+
+
+    <div  style="background-color:white; margin: 0 auto; width:950px;border-radius: 25px; padding-right: 10px;
+    padding-bottom: 50px; margin-top:20px; margin-bottom:20px;
+    padding-left: 10px; ">
+
+        <form class="form" name="registration" id="form">
+            <br>
+           
+           
+           <br>
+                <div class="form-group">
+                    
+                    <div class="col-md-6">
+                        <label for="Name">Complain Initializer:</label>
+                        <input type="Text" class="form-control" id="Complain" name="Complain" placeholder="Please enter your complaint"/>               
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="Name">Customer Name:</label>
+                        <input type="Text" class="form-control" id="Name" name="Name" placeholder="Please enter name"/>
+                    </div> 
+
+					<div class="clear"></div>
+                
+                </div>
+
+
+                <div class="form-group">
+                <div class="col-md-6">
+                        <label for="Cnic">CNIC No:</label>
+                      <input  onKeyUp="if(this.value.length==5 || this.value.length==13) this.value=this.value+'-'" type="text" class="form-control"  maxlength="15" id="Cnic" name="Cnic" required  placeholder="Example xxxx-xxxxxxx-x" ng-model="formInfo.CNIC" />
+                       
+                    </div>
+
+                <div class="col-md-6">
+                        <label for="Name">Customer Account:</label>
+                        <input type="Text" class="form-control" id="Account" name="Account" placeholder="Account Number"/>
+                </div> 
+                                    
+                </div>
+               
+         <div class="form-group">
+                    <div class="col-md-6">
+                        <label for="Email">Email:</label>
+                        <input type="Text" class="form-control" id="Email" name="Email" placeholder="Email"/>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="Complaint">Type of Complaint:</label>
+                        <input type="text" class="form-control" id="Complaint"  name="Complaint" placeholder="Complaint"/>
+                    </div>
+                
+         </div>
+               
+<button type="submit" id="submit" class="btn btn-success"  style="margin-top:53px" >Submit</button>         
+     <div id="myResultDiv"></div>
+			   
+			   </div>
+        </form>			   
+			   
+	<script>
+	
+	$(function() {
+    $("#form").validate({
+    rules: {
+        Complain: "required"
+        Name: "required",
+        Address: "required",
+      Email: {
+        required: true,
+        email: true
+      },
+      
+      messages: {
+      Complain: "Please enter a complaint"  
+      Name: "Please enter your Name",
+      Address: "Please enter your Address",
+      email: "Please enter a valid email address"
+    },
+    submitHandler: function(form) {
+     $('#submit').attr('disabled',true); 
+     
+            var paf = $("#paf").val();
+            var ran = $("#ran").val();
+    var Name = $("#Name").val();
+    var Cnic= $("#Cnic").val();
+    var Account = $("#Account").val();
+    var Complaint = $("#city").val();
+    var email = $("#Email").val();
+    
+    var file_data = $('#sortpicture').prop('files')[0];   
+    var form_data = new FormData();        
+    form_data.append('Complain', Complain);          
+    form_data.append('Name', Name);
+    form_data.append('Cnic', Cnic);
+    form_data.append('Account', Account);
+    form_data.append('email', email);
+    form_data.append('Complaint', Complaint);
+    
+    $.ajax({ 
+                url: 'testnew.php',  
+                dataType: 'text', 
+                cache: false,
+                contentType: false,
+                processData: false,
+                data: form_data,                         
+                type: 'post',
+                success: function(data){
+                   alert(data); 
+                window.location = "https://sindhbankltd.com/sindhbankcareer.php";
+                }
+     });
+     
+
+    $( '#form' ).each(function(){
+    
+});
+        
+        
+        
+        
+    }
+  };
+});
+	
+</script>			   
+			   
+			   
+			   
+			   
+			   
+	
+</body>
+</html>
